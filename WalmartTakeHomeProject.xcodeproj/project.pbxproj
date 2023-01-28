@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456FA3E429855925006D49D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA3E329855925006D49D3 /* AppDelegate.swift */; };
+		456FA3E629855925006D49D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA3E529855925006D49D3 /* SceneDelegate.swift */; };
+		456FA3E829855925006D49D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA3E729855925006D49D3 /* ViewController.swift */; };
+		456FA3EB29855925006D49D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456FA3E929855925006D49D3 /* Main.storyboard */; };
+		456FA3ED29855925006D49D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456FA3EC29855925006D49D3 /* Assets.xcassets */; };
+		456FA3F029855925006D49D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456FA3EE29855925006D49D3 /* LaunchScreen.storyboard */; };
+		456FA3FB29855926006D49D3 /* WalmartTakeHomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA3FA29855926006D49D3 /* WalmartTakeHomeProjectTests.swift */; };
+		456FA40529855926006D49D3 /* WalmartTakeHomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA40429855926006D49D3 /* WalmartTakeHomeProjectUITests.swift */; };
+		456FA40729855926006D49D3 /* WalmartTakeHomeProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA40629855926006D49D3 /* WalmartTakeHomeProjectUITestsLaunchTests.swift */; };
+		456FA41429855996006D49D3 /* CameraFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA41329855996006D49D3 /* CameraFeedManager.swift */; };
+		456FA416298559AA006D49D3 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA415298559AA006D49D3 /* PreviewView.swift */; };
+		456FA418298559BE006D49D3 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA417298559BE006D49D3 /* OverlayView.swift */; };
+		456FA41A298559D0006D49D3 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456FA419298559D0006D49D3 /* ModelManager.swift */; };
+		456FA41C29855B96006D49D3 /* cereal_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 456FA41B29855B96006D49D3 /* cereal_model.tflite */; };
+		48A2AD766BA6E5789A0C5FD1 /* Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B5AC43A83F4895CF79CD47 /* Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework */; };
+		54F4CAF3F7202E48A2D5CAC5 /* Pods_WalmartTakeHomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD35CE2BD9D40AB3D2F3F26 /* Pods_WalmartTakeHomeProject.framework */; };
+		584A8D2EAD394C39A7F81B92 /* Pods_WalmartTakeHomeProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156D079396B6CB136393E2B2 /* Pods_WalmartTakeHomeProjectTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		456FA3F729855926006D49D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456FA3D829855925006D49D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456FA3DF29855925006D49D3;
+			remoteInfo = WalmartTakeHomeProject;
+		};
+		456FA40129855926006D49D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 456FA3D829855925006D49D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456FA3DF29855925006D49D3;
+			remoteInfo = WalmartTakeHomeProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B5AC43A83F4895CF79CD47 /* Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		156D079396B6CB136393E2B2 /* Pods_WalmartTakeHomeProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartTakeHomeProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD35CE2BD9D40AB3D2F3F26 /* Pods_WalmartTakeHomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WalmartTakeHomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		456FA3E029855925006D49D3 /* WalmartTakeHomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalmartTakeHomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456FA3E329855925006D49D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		456FA3E529855925006D49D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		456FA3E729855925006D49D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		456FA3EA29855925006D49D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		456FA3EC29855925006D49D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456FA3EF29855925006D49D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		456FA3F129855925006D49D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456FA3F629855926006D49D3 /* WalmartTakeHomeProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartTakeHomeProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456FA3FA29855926006D49D3 /* WalmartTakeHomeProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartTakeHomeProjectTests.swift; sourceTree = "<group>"; };
+		456FA40029855926006D49D3 /* WalmartTakeHomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartTakeHomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456FA40429855926006D49D3 /* WalmartTakeHomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartTakeHomeProjectUITests.swift; sourceTree = "<group>"; };
+		456FA40629855926006D49D3 /* WalmartTakeHomeProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartTakeHomeProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		456FA41329855996006D49D3 /* CameraFeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeedManager.swift; sourceTree = "<group>"; };
+		456FA415298559AA006D49D3 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		456FA417298559BE006D49D3 /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		456FA419298559D0006D49D3 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		456FA41B29855B96006D49D3 /* cereal_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cereal_model.tflite; sourceTree = "<group>"; };
+		49B47180C538E1532F0D687F /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5046D09CD9F71BB85A70EE19 /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		570F0F538D163DF456CE1102 /* Pods-WalmartTakeHomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProject.release.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		6EBB0577F759CBB7FC99F25C /* Pods-WalmartTakeHomeProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProjectTests/Pods-WalmartTakeHomeProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D356304978C769DD8514E2A /* Pods-WalmartTakeHomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProject.debug.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9D683A5B7A7EAC943384D713 /* Pods-WalmartTakeHomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalmartTakeHomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-WalmartTakeHomeProjectTests/Pods-WalmartTakeHomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456FA3DD29855925006D49D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F4CAF3F7202E48A2D5CAC5 /* Pods_WalmartTakeHomeProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3F329855926006D49D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A8D2EAD394C39A7F81B92 /* Pods_WalmartTakeHomeProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3FD29855926006D49D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A2AD766BA6E5789A0C5FD1 /* Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C4A5299715AA9A536ACDCF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD35CE2BD9D40AB3D2F3F26 /* Pods_WalmartTakeHomeProject.framework */,
+				13B5AC43A83F4895CF79CD47 /* Pods_WalmartTakeHomeProject_WalmartTakeHomeProjectUITests.framework */,
+				156D079396B6CB136393E2B2 /* Pods_WalmartTakeHomeProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456FA3D729855925006D49D3 = {
+			isa = PBXGroup;
+			children = (
+				456FA41B29855B96006D49D3 /* cereal_model.tflite */,
+				456FA3E229855925006D49D3 /* WalmartTakeHomeProject */,
+				456FA3F929855926006D49D3 /* WalmartTakeHomeProjectTests */,
+				456FA40329855926006D49D3 /* WalmartTakeHomeProjectUITests */,
+				456FA3E129855925006D49D3 /* Products */,
+				E28C1FE1851938D4B8B7CA28 /* Pods */,
+				1C4A5299715AA9A536ACDCF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		456FA3E129855925006D49D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456FA3E029855925006D49D3 /* WalmartTakeHomeProject.app */,
+				456FA3F629855926006D49D3 /* WalmartTakeHomeProjectTests.xctest */,
+				456FA40029855926006D49D3 /* WalmartTakeHomeProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456FA3E229855925006D49D3 /* WalmartTakeHomeProject */ = {
+			isa = PBXGroup;
+			children = (
+				456FA3E329855925006D49D3 /* AppDelegate.swift */,
+				456FA3E529855925006D49D3 /* SceneDelegate.swift */,
+				456FA3E729855925006D49D3 /* ViewController.swift */,
+				456FA3E929855925006D49D3 /* Main.storyboard */,
+				456FA3EC29855925006D49D3 /* Assets.xcassets */,
+				456FA3EE29855925006D49D3 /* LaunchScreen.storyboard */,
+				456FA3F129855925006D49D3 /* Info.plist */,
+				456FA41329855996006D49D3 /* CameraFeedManager.swift */,
+				456FA415298559AA006D49D3 /* PreviewView.swift */,
+				456FA417298559BE006D49D3 /* OverlayView.swift */,
+				456FA419298559D0006D49D3 /* ModelManager.swift */,
+			);
+			path = WalmartTakeHomeProject;
+			sourceTree = "<group>";
+		};
+		456FA3F929855926006D49D3 /* WalmartTakeHomeProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				456FA3FA29855926006D49D3 /* WalmartTakeHomeProjectTests.swift */,
+			);
+			path = WalmartTakeHomeProjectTests;
+			sourceTree = "<group>";
+		};
+		456FA40329855926006D49D3 /* WalmartTakeHomeProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				456FA40429855926006D49D3 /* WalmartTakeHomeProjectUITests.swift */,
+				456FA40629855926006D49D3 /* WalmartTakeHomeProjectUITestsLaunchTests.swift */,
+			);
+			path = WalmartTakeHomeProjectUITests;
+			sourceTree = "<group>";
+		};
+		E28C1FE1851938D4B8B7CA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D356304978C769DD8514E2A /* Pods-WalmartTakeHomeProject.debug.xcconfig */,
+				570F0F538D163DF456CE1102 /* Pods-WalmartTakeHomeProject.release.xcconfig */,
+				5046D09CD9F71BB85A70EE19 /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.debug.xcconfig */,
+				49B47180C538E1532F0D687F /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.release.xcconfig */,
+				6EBB0577F759CBB7FC99F25C /* Pods-WalmartTakeHomeProjectTests.debug.xcconfig */,
+				9D683A5B7A7EAC943384D713 /* Pods-WalmartTakeHomeProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456FA3DF29855925006D49D3 /* WalmartTakeHomeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456FA40A29855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProject" */;
+			buildPhases = (
+				66F19A18F503E48145013F16 /* [CP] Check Pods Manifest.lock */,
+				456FA3DC29855925006D49D3 /* Sources */,
+				456FA3DD29855925006D49D3 /* Frameworks */,
+				456FA3DE29855925006D49D3 /* Resources */,
+				EFE6F049A096459C69068175 /* [CP] Embed Pods Frameworks */,
+				CAB14702ECF5E41D879BBF37 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalmartTakeHomeProject;
+			productName = WalmartTakeHomeProject;
+			productReference = 456FA3E029855925006D49D3 /* WalmartTakeHomeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		456FA3F529855926006D49D3 /* WalmartTakeHomeProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456FA40D29855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProjectTests" */;
+			buildPhases = (
+				09443890B1BBA1D0A26644D4 /* [CP] Check Pods Manifest.lock */,
+				456FA3F229855926006D49D3 /* Sources */,
+				456FA3F329855926006D49D3 /* Frameworks */,
+				456FA3F429855926006D49D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456FA3F829855926006D49D3 /* PBXTargetDependency */,
+			);
+			name = WalmartTakeHomeProjectTests;
+			productName = WalmartTakeHomeProjectTests;
+			productReference = 456FA3F629855926006D49D3 /* WalmartTakeHomeProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		456FA3FF29855926006D49D3 /* WalmartTakeHomeProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456FA41029855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProjectUITests" */;
+			buildPhases = (
+				ADF2432517BEDC5C6C43FE91 /* [CP] Check Pods Manifest.lock */,
+				456FA3FC29855926006D49D3 /* Sources */,
+				456FA3FD29855926006D49D3 /* Frameworks */,
+				456FA3FE29855926006D49D3 /* Resources */,
+				671EB0FF6F7973ABC9C96DBB /* [CP] Embed Pods Frameworks */,
+				AC498BB51730090A12D91C84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456FA40229855926006D49D3 /* PBXTargetDependency */,
+			);
+			name = WalmartTakeHomeProjectUITests;
+			productName = WalmartTakeHomeProjectUITests;
+			productReference = 456FA40029855926006D49D3 /* WalmartTakeHomeProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456FA3D829855925006D49D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					456FA3DF29855925006D49D3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					456FA3F529855926006D49D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 456FA3DF29855925006D49D3;
+					};
+					456FA3FF29855926006D49D3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 456FA3DF29855925006D49D3;
+					};
+				};
+			};
+			buildConfigurationList = 456FA3DB29855925006D49D3 /* Build configuration list for PBXProject "WalmartTakeHomeProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456FA3D729855925006D49D3;
+			productRefGroup = 456FA3E129855925006D49D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456FA3DF29855925006D49D3 /* WalmartTakeHomeProject */,
+				456FA3F529855926006D49D3 /* WalmartTakeHomeProjectTests */,
+				456FA3FF29855926006D49D3 /* WalmartTakeHomeProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456FA3DE29855925006D49D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FA3F029855925006D49D3 /* LaunchScreen.storyboard in Resources */,
+				456FA41C29855B96006D49D3 /* cereal_model.tflite in Resources */,
+				456FA3ED29855925006D49D3 /* Assets.xcassets in Resources */,
+				456FA3EB29855925006D49D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3F429855926006D49D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3FE29855926006D49D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09443890B1BBA1D0A26644D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalmartTakeHomeProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F19A18F503E48145013F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalmartTakeHomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671EB0FF6F7973ABC9C96DBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC498BB51730090A12D91C84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF2432517BEDC5C6C43FE91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB14702ECF5E41D879BBF37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6F049A096459C69068175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WalmartTakeHomeProject/Pods-WalmartTakeHomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456FA3DC29855925006D49D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FA416298559AA006D49D3 /* PreviewView.swift in Sources */,
+				456FA3E829855925006D49D3 /* ViewController.swift in Sources */,
+				456FA3E429855925006D49D3 /* AppDelegate.swift in Sources */,
+				456FA41A298559D0006D49D3 /* ModelManager.swift in Sources */,
+				456FA418298559BE006D49D3 /* OverlayView.swift in Sources */,
+				456FA41429855996006D49D3 /* CameraFeedManager.swift in Sources */,
+				456FA3E629855925006D49D3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3F229855926006D49D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FA3FB29855926006D49D3 /* WalmartTakeHomeProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456FA3FC29855926006D49D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456FA40529855926006D49D3 /* WalmartTakeHomeProjectUITests.swift in Sources */,
+				456FA40729855926006D49D3 /* WalmartTakeHomeProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		456FA3F829855926006D49D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456FA3DF29855925006D49D3 /* WalmartTakeHomeProject */;
+			targetProxy = 456FA3F729855926006D49D3 /* PBXContainerItemProxy */;
+		};
+		456FA40229855926006D49D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456FA3DF29855925006D49D3 /* WalmartTakeHomeProject */;
+			targetProxy = 456FA40129855926006D49D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		456FA3E929855925006D49D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456FA3EA29855925006D49D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		456FA3EE29855925006D49D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456FA3EF29855925006D49D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456FA40829855926006D49D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		456FA40929855926006D49D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		456FA40B29855926006D49D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D356304978C769DD8514E2A /* Pods-WalmartTakeHomeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456FA40C29855926006D49D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570F0F538D163DF456CE1102 /* Pods-WalmartTakeHomeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WalmartTakeHomeProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		456FA40E29855926006D49D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBB0577F759CBB7FC99F25C /* Pods-WalmartTakeHomeProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartTakeHomeProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalmartTakeHomeProject";
+			};
+			name = Debug;
+		};
+		456FA40F29855926006D49D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D683A5B7A7EAC943384D713 /* Pods-WalmartTakeHomeProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalmartTakeHomeProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalmartTakeHomeProject";
+			};
+			name = Release;
+		};
+		456FA41129855926006D49D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5046D09CD9F71BB85A70EE19 /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartTakeHomeProject;
+			};
+			name = Debug;
+		};
+		456FA41229855926006D49D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B47180C538E1532F0D687F /* Pods-WalmartTakeHomeProject-WalmartTakeHomeProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B98E95D4Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caleb.mitcler.WalmartTakeHomeProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WalmartTakeHomeProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456FA3DB29855925006D49D3 /* Build configuration list for PBXProject "WalmartTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FA40829855926006D49D3 /* Debug */,
+				456FA40929855926006D49D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456FA40A29855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FA40B29855926006D49D3 /* Debug */,
+				456FA40C29855926006D49D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456FA40D29855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FA40E29855926006D49D3 /* Debug */,
+				456FA40F29855926006D49D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456FA41029855926006D49D3 /* Build configuration list for PBXNativeTarget "WalmartTakeHomeProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456FA41129855926006D49D3 /* Debug */,
+				456FA41229855926006D49D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 456FA3D829855925006D49D3 /* Project object */;
+}
